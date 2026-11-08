@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Salidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <video class="fondo-video" autoplay muted loop playsinline>
+        <source src="videos/video.mp4" type="video/mp4">
+    </video>
+
+    <header>
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Salidas-Mis opciones después del Bachillerato</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="opciones.html">Opciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="salidas.html">Salidas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section class="caja">
+            <h1 class="text-center mb-4">Salidas de mis tres opciones</h1>
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="informatica-tab" data-bs-toggle="tab" data-bs-target="#informatica-tab-pane" type="button" role="tab" aria-controls="informatica-tab-pane" aria-selected="true">Ingeniería Informática</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ia-tab" data-bs-toggle="tab" data-bs-target="#ia-tab-pane" type="button" role="tab" aria-controls="ia-tab-pane" aria-selected="false">Inteligencia Artificial</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="datos-tab" data-bs-toggle="tab" data-bs-target="#datos-tab-pane" type="button" role="tab" aria-controls="datos-tab-pane" aria-selected="false">Ciencia e Ingeniería de Datos</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+
+                <div class="tab-pane fade show active" id="informatica-tab-pane" role="tabpanel" aria-labelledby="informatica-tab" tabindex="0">
+                    <h2>1. Ingeniería Informática</h2>
+                    <p>Este grado permite trabajar en empresas tecnológicas, consultoras y departamentos informáticos de diferentes organizaciones, tanto privadas como de la administración pública.</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/desarrollador.jpg" class="card-img-top img-fluid" alt="Código de programación en la pantalla de un portátil">
+                                <div class="card-body">
+                                    <h3 class="card-title">1.1. Desarrollador de software</h3>
+                                    <p class="card-text">Diseña, programa y prueba aplicaciones para ordenadores, móviles o páginas web, normalmente en equipo con otros programadores. En el grado se trabaja sobre todo en la mención de Ingeniería del Software.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/administrador.jpg" class="card-img-top img-fluid" alt="Armarios de servidores en una sala de ordenadores">
+                                <div class="card-body">
+                                    <h3 class="card-title">1.2. Administrador de sistemas</h3>
+                                    <p class="card-text">Instala y mantiene los servidores, las redes y los ordenadores de una empresa para que funcionen sin cortes y se hagan copias de seguridad. También vigila la seguridad para evitar ataques y pérdidas de datos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/analista-sistemas.jpg" class="card-img-top img-fluid" alt="Pizarra con un esquema de un sistema dibujado con rotuladores">
+                                <div class="card-body">
+                                    <h3 class="card-title">1.3. Analista de sistemas</h3>
+                                    <p class="card-text">Habla con la empresa para entender qué necesita y diseña cómo tiene que ser el sistema informático antes de que se programe. Hace de puente entre los clientes y los programadores, así que tiene que saber explicar bien las cosas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Cómo llegar</h3>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Hacer el Bachillerato (mejor el de Ciencias y Tecnología) y la PAU. Para este grado ponderan 0,2 Matemáticas II, Física, Química, Dibujo Técnico II y Tecnología e Ingeniería II. En 2026 la nota de corte fue 8,490.</li>
+                        <li class="list-group-item">En junio, hacer la preinscripción en la CiUG con la aplicación NERTA, poniendo el grado entre mis cinco opciones por orden de preferencia, y matricularme en la web de la UDC cuando salga en una lista.</li>
+                        <li class="list-group-item">Aprobar los 240 ECTS en cuatro cursos: primero es de formación básica (60 ECTS), en tercero elijo una de las cinco menciones y en cuarto hago el Trabajo de Fin de Grado.</li>
+                    </ol>
+                </div>
+
+                <div class="tab-pane fade" id="ia-tab-pane" role="tabpanel" aria-labelledby="ia-tab" tabindex="0">
+                    <h2>2. Inteligencia Artificial</h2>
+                    <p>Este grado prepara profesionales capaces de desarrollar sistemas inteligentes que aprenden de los datos y automatizan tareas en campos como la medicina, la industria o el transporte.</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/ingeniero-ia.jpg" class="card-img-top img-fluid" alt="Cabeza y hombros de un robot humanoide con cara de persona">
+                                <div class="card-body">
+                                    <h3 class="card-title">2.1. Ingeniero de Inteligencia Artificial</h3>
+                                    <p class="card-text">Crea sistemas inteligentes que toman decisiones o automatizan tareas, como asistentes de voz, robots o programas que detectan fraudes. Tiene que elegir qué técnica de IA usar en cada caso y comprobar que el sistema funciona bien y de forma responsable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/aprendizaje.jpg" class="card-img-top img-fluid" alt="Dibujo de un cerebro formado por circuitos que representa una red neuronal">
+                                <div class="card-body">
+                                    <h3 class="card-title">2.2. Ingeniero de aprendizaje automático</h3>
+                                    <p class="card-text">Entrena modelos con muchos datos para que aprendan a hacer predicciones, por ejemplo recomendar películas o detectar correos de spam. Después los prueba y los mejora para que se equivoquen lo menos posible.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/vision.jpg" class="card-img-top img-fluid" alt="Señal de stop rodeada por dos recuadros de un programa de detección de objetos">
+                                <div class="card-body">
+                                    <h3 class="card-title">2.3. Ingeniero de visión artificial</h3>
+                                    <p class="card-text">Crea programas que entienden imágenes y vídeos, por ejemplo para que un coche autónomo reconozca una señal de stop o para detectar enfermedades en radiografías. Para ello entrena modelos con miles de imágenes etiquetadas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Cómo llegar</h3>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Hacer el Bachillerato (mejor el de Ciencias y Tecnología) y sacar mucha nota en la PAU, porque es el grado que más nota pide (10,214 en 2026). Ponderan 0,2 materias como Matemáticas II, Matemáticas Aplicadas a las Ciencias Sociales II, Física, Química, Biología y Tecnología e Ingeniería II.</li>
+                        <li class="list-group-item">En junio, hacer la preinscripción en la CiUG con la aplicación NERTA eligiendo el grado de la UDC (también lo dan la USC y la UVigo) y matricularme en la web de la UDC cuando salga en una lista.</li>
+                        <li class="list-group-item">Aprobar los 240 ECTS en cuatro cursos y hacer el Trabajo de Fin de Grado en el último curso.</li>
+                    </ol>
+                </div>
+
+                <div class="tab-pane fade" id="datos-tab-pane" role="tabpanel" aria-labelledby="datos-tab" tabindex="0">
+                    <h2>3. Ciencia e Ingeniería de Datos</h2>
+                    <p>Este grado forma profesionales capaces de gestionar, procesar y analizar grandes cantidades de información para obtener conclusiones útiles en sectores como la banca, la sanidad o la industria.</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/analista-datos.jpg" class="card-img-top img-fluid" alt="Panel de una herramienta de análisis con gráficos de barras, de líneas y un mapa">
+                                <div class="card-body">
+                                    <h3 class="card-title">3.1. Analista de datos</h3>
+                                    <p class="card-text">Recoge los datos de una empresa, los ordena y los convierte en gráficos e informes que ayudan a tomar decisiones. Por ejemplo, puede estudiar qué productos se venden más y en qué época del año.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/cientifico-datos.jpg" class="card-img-top img-fluid" alt="Mujer trabajando con un portátil en la mesa de su oficina">
+                                <div class="card-body">
+                                    <h3 class="card-title">3.2. Científico de datos</h3>
+                                    <p class="card-text">Usa estadística y programación para crear modelos que predicen lo que puede pasar, como cuántos clientes va a tener una tienda el mes que viene. Suele trabajar con herramientas como Python y Jupyter Notebook.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 mb-3">
+                            <div class="card h-100">
+                                <img src="img/ingeniero-datos.jpg" class="card-img-top img-fluid" alt="Filas de servidores con luces azules en un centro de datos">
+                                <div class="card-body">
+                                    <h3 class="card-title">3.3. Ingeniero de datos</h3>
+                                    <p class="card-text">Construye y mantiene los sistemas que guardan y mueven grandes cantidades de datos para que los analistas y los científicos de datos puedan usarlos. Trabaja con bases de datos y servidores, a veces en la nube.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Cómo llegar</h3>
+                    <ol class="list-group list-group-numbered">
+                        <li class="list-group-item">Hacer el Bachillerato (mejor el de Ciencias y Tecnología) y la PAU. Para este grado ponderan 0,2 Matemáticas II, Física, Química, Biología y Tecnología e Ingeniería II, pero Matemáticas Aplicadas a las Ciencias Sociales II no pondera. En 2026 la nota de corte fue 9,658.</li>
+                        <li class="list-group-item">En junio, hacer la preinscripción en la CiUG con la aplicación NERTA, poniendo el grado entre mis cinco opciones por orden de preferencia, y matricularme en la web de la UDC cuando salga en una lista.</li>
+                        <li class="list-group-item">Aprobar los 240 ECTS en cuatro cursos y hacer el Trabajo de Fin de Grado en el último curso.</li>
+                    </ol>
+                </div>
+
+            </div>
+            <p class="mt-3">Las ponderaciones son las de la PAU 2027 y las notas de corte son las del último plazo de 2026, las dos publicadas por la CiUG.</p>
+        </section>
+
+        <section class="caja">
+            <h2>Conclusión</h2>
+            <p>Después de comparar mis tres opciones, he visto que se parecen bastante: las tres duran cuatro años, tienen 240 créditos y se estudian en la misma facultad. La diferencia está en lo que enseñan. Ingeniería Informática es la más general, tiene más plazas y pide menos nota, así que encaja con alguien a quien le gusta la informática pero todavía no sabe en qué especializarse. Inteligencia Artificial encaja con alguien que quiere crear programas que aprenden solos. Ciencia e Ingeniería de Datos encaja con alguien a quien le gustan mucho las matemáticas y la estadística. Estas dos últimas tienen menos plazas y piden más nota.</p>
+        </section>
+
+    </main>
+
+    <footer class="text-center">
+        <p>TIC II - Práctica 01 - 2.º Bachillerato - 2026-2027</p>
+        <p>Imágenes (sacadas de Wikimedia Commons, solo he cambiado el tamaño y las he recortado):</p>
+        <ul class="list">
+            <li>"RustCodeOnScreen", de Slashme. <a href="https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.es">CC0</a></li>
+            <li>"3PAR SAN in the server room", de Alexis Lê-Quôc. <a href="https://commons.wikimedia.org/wiki/File:3PAR_SAN_in_the_server_room.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/2.0/deed.es">CC BY-SA 2.0</a></li>
+            <li>"SCHÉMA", de SajmonKajtka. <a href="https://commons.wikimedia.org/wiki/File:SCH%C3%89MA.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></li>
+            <li>"Ameca Generation 1", de Willy Jackson. <a href="https://commons.wikimedia.org/wiki/File:Ameca_Generation_1.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></li>
+            <li>"Artificial Neural Network with Chip", de mikemacmarketing. <a href="https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network_with_Chip.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by/2.0/deed.es">CC BY 2.0</a></li>
+            <li>"Intersection over Union - object detection bounding boxes", de Adrian Rosebrock. <a href="https://commons.wikimedia.org/wiki/File:Intersection_over_Union_-_object_detection_bounding_boxes.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></li>
+            <li>"Infruid's Self-Service BI Tool Dashboard", de Growthlakes. <a href="https://commons.wikimedia.org/wiki/File:Infruid%27s_Self-Service_BI_Tool_Dashboard.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a></li>
+            <li>"Elderly woman sitting at her office table and holding a cup of coffee while working on her laptop", de Shixart1985. <a href="https://commons.wikimedia.org/wiki/File:Elderly_woman_sitting_at_her_office_table_and_holding_a_cup_of_coffee_while_working_on_her_laptop._Croissant_and_a_donut_on_the_trays_next_to_her.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by/2.0/deed.es">CC BY 2.0</a></li>
+            <li>"BalticServers data center", de BalticServers.com. <a href="https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg">Wikimedia Commons</a>. Licencia <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.es">CC BY-SA 3.0</a></li>
+        </ul>
+        <p>Fuentes: <a href="https://estudos.udc.es/es/study/start/614G01V01">Grado en Ingeniería Informática (UDC)</a>, <a href="https://estudos.udc.es/es/study/start/614G03V01">Grado en Inteligencia Artificial (UDC)</a> y <a href="https://estudos.udc.es/es/study/start/614G02V01">Grado en Ciencia e Ingeniería de Datos (UDC)</a>.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

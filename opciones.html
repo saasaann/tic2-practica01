@@ -3,285 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Inicio</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-           <h1 class="offcanvas-title mb-0" id="offcanvasNavbarLabel">Opciones</h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h1 class="offcanvas-title" id="offcanvasNavbarLabel">Opciones</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="opciones.html">Opciones</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="salida.html">Salida</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    </nav>
+    <title>Opciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <div class="container mt-5 pt-4">
-        <h2 class="text-center mb-4">Comparación de grados universitarios</h2>
-    
-        <div class="table-responsive">
-            <table class="table align-middle">
-    
-                <thead class="table-dark">
-                    <tr>
-                        <th>Grado</th>
-                        <th>Descripción</th>
-                        <th>Ventajas</th>
-                        <th>Desventajas</th>
-                    </tr>
-                </thead>
-    
-                <tbody>
-    
-                    <tr>
-                        <th scope="row">Ingeniería Informática</th>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#descripcion1">
-                                            Ver descripción
-                                        </button>
-                                    </h2>
-                                    <div id="descripcion1" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            El Grado en Ingeniería Informática de la UDC forma profesionales capaces de diseñar, desarrollar y mantener programas, aplicaciones y sistemas informáticos.
-    
-                                            <ul class="mt-3">
-                                                <li><strong>Duración:</strong> 4 cursos académicos.</li>
-                                                <li><strong>Créditos:</strong> 240 ECTS.</li>
-                                                <li><strong>Modalidad:</strong> Presencial.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#ventajas1">
-                                            Ver ventajas
-                                        </button>
-                                    </h2>
-                                    <div id="ventajas1" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Amplia variedad de salidas profesionales.</li>
-                                                <li>Formación general que permite especializarse en diferentes áreas tecnológicas.</li>
-                                                <li>Competencias en programación y desarrollo de software.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#desventajas1">
-                                            Ver desventajas
-                                        </button>
-                                    </h2>
-                                    <div id="desventajas1" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Complejidad técnica y necesidad de resolver problemas abstractos.</li>
-                                                <li>Actualización continua debido a la evolución de las tecnologías.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
+    <video class="fondo-video" autoplay muted loop playsinline>
+        <source src="videos/video.mp4" type="video/mp4">
+    </video>
 
-                    <tr>
-                        <th scope="row">Inteligencia Artificial</th>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#descripcion2">
-                                            Ver descripción
-                                        </button>
-                                    </h2>
-                                    <div id="descripcion2" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            El Grado en Inteligencia Artificial de la UDC prepara especialistas en el desarrollo de sistemas capaces de aprender, reconocer patrones y automatizar tareas.
-    
-                                            <ul class="mt-3">
-                                                <li><strong>Duración:</strong> 4 cursos académicos.</li>
-                                                <li><strong>Créditos:</strong> 240 ECTS.</li>
-                                                <li><strong>Modalidad:</strong> Presencial.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#ventajas2">
-                                            Ver ventajas
-                                        </button>
-                                    </h2>
-                                    <div id="ventajas2" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Sector tecnológico especializado con aplicaciones en numerosos campos.</li>
-                                                <li>Posibilidad de participar en el desarrollo de nuevas tecnologías.</li>
-                                                <li>Competencias en aprendizaje automático y sistemas inteligentes.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#desventajas2">
-                                            Ver desventajas
-                                        </button>
-                                    </h2>
-                                    <div id="desventajas2" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Elevada exigencia matemática.</li>
-                                                <li>Especialización temprana frente a una formación informática más general.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-    
-                    <tr>
-                        <th scope="row">Ciencia e Ingeniería de Datos</th>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#descripcion3">
-                                            Ver descripción
-                                        </button>
-                                    </h2>
-                                    <div id="descripcion3" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            El Grado en Ciencia e Ingeniería de Datos de la UDC se centra en recoger, procesar y analizar grandes cantidades de información mediante herramientas matemáticas, estadísticas e informáticas.
-    
-                                            <ul class="mt-3">
-                                                <li><strong>Duración:</strong> 4 cursos académicos.</li>
-                                                <li><strong>Créditos:</strong> 240 ECTS.</li>
-                                                <li><strong>Modalidad:</strong> Presencial.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#ventajas3">
-                                            Ver ventajas
-                                        </button>
-                                    </h2>
-                                    <div id="ventajas3" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Aplicación en sectores muy diferentes, como las finanzas, la investigación o la sanidad.</li>
-                                                <li>Permite transformar información en conclusiones útiles.</li>
-                                                <li>Competencias en análisis, estadística y programación.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-    
-                        <td>
-                            <div class="accordion accordion-flush">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#desventajas3">
-                                            Ver desventajas
-                                        </button>
-                                    </h2>
-                                    <div id="desventajas3" class="accordion-collapse collapse">
-                                        <div class="accordion-body text-start">
-                                            <ul>
-                                                <li>Importante carga matemática.</li>
-                                                <li>Trabajo complejo de limpieza, organización y comprobación de grandes volúmenes de información.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-    
-                </tbody>
-            </table>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Opciones-Mis opciones después del Bachillerato</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="opciones.html">Opciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="salidas.html">Salidas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <main class="container">
+
+        <section class="caja">
+            <h1 class="text-center">Comparación de mis tres opciones</h1>
+            <p>En esta tabla he puesto los datos oficiales de los tres grados para el curso 2026-2027. Los consulté el 8 de noviembre de 2026 en la web de la UDC y en la de la CiUG. Debajo hay una ficha de cada grado.</p>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <caption>Comparación de los tres grados de la UDC (curso 2026-2027)</caption>
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Dato</th>
+                            <th scope="col">Ingeniería Informática</th>
+                            <th scope="col">Inteligencia Artificial</th>
+                            <th scope="col">Ciencia e Ingeniería de Datos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Nombre y tipo</th>
+                            <td>Grado en Ingeniería Informática. Grado universitario.</td>
+                            <td>Grado en Inteligencia Artificial. Grado universitario de la UDC, la USC y la UVigo.</td>
+                            <td>Grado en Ciencia e Ingeniería de Datos. Grado universitario.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Centro y localidad</th>
+                            <td>Facultad de Informática, Campus de Elviña, A Coruña</td>
+                            <td>Facultad de Informática, Campus de Elviña, A Coruña</td>
+                            <td>Facultad de Informática, Campus de Elviña, A Coruña</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Créditos y duración</th>
+                            <td>240 ECTS, 4 cursos</td>
+                            <td>240 ECTS, 4 cursos</td>
+                            <td>240 ECTS, 4 cursos</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Modalidad</th>
+                            <td>Presencial</td>
+                            <td>Presencial</td>
+                            <td>Presencial</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Cómo se accede</th>
+                            <td>Bachillerato y PAU, o un ciclo superior de FP. Preinscripción en la CiUG.</td>
+                            <td>Bachillerato y PAU, o un ciclo superior de FP. Preinscripción en la CiUG.</td>
+                            <td>Bachillerato y PAU, o un ciclo superior de FP. Preinscripción en la CiUG.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Plazas en 2026</th>
+                            <td>259</td>
+                            <td>50</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nota de corte 2026</th>
+                            <td>8,490</td>
+                            <td>10,214</td>
+                            <td>9,658</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Qué permite hacer</th>
+                            <td>Título de Graduado/a en Ingeniería Informática. Programación, sistemas y consultoría.</td>
+                            <td>Título de Graduado/a en Inteligencia Artificial. Ingeniería de IA y aprendizaje automático.</td>
+                            <td>Título de Graduado/a en Ciencia e Ingeniería de Datos. Análisis, ciencia e ingeniería de datos.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Fuentes</th>
+                            <td><a href="https://estudos.udc.es/es/study/start/614G01V01">Web del grado</a> y <a href="https://estudos.udc.es/es/study/admission/614G01V01">acceso</a>. Curso 2026-2027. Consulta: 08/11/2026</td>
+                            <td><a href="https://estudos.udc.es/es/study/start/614G03V01">Web del grado</a> y <a href="https://estudos.udc.es/es/study/admission/614G03V01">acceso</a>. Curso 2026-2027. Consulta: 08/11/2026</td>
+                            <td><a href="https://estudos.udc.es/es/study/start/614G02V01">Web del grado</a> y <a href="https://estudos.udc.es/es/study/admission/614G02V01">acceso</a>. Curso 2026-2027. Consulta: 08/11/2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Las notas de corte son las del último alumno llamado a matricularse en el último plazo de 2026, según la <a href="https://www.ciug.gal/uploads/PDF/2026/Acceso/6ac8e4b64852e473654100derradeiroprazo.pdf">CiUG</a> (consulta: 08/11/2026).</p>
+        </section>
+
+        <section class="caja">
+            <h2 class="text-center mb-4">Ficha de cada grado</h2>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Ingeniería Informática
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Es el grado más general de los tres. Enseña a diseñar, programar y mantener aplicaciones y sistemas informáticos. En tercero se elige una mención, por ejemplo Ingeniería del Software o Computación.</p>
+                            <h4>Competencias</h4>
+                            <ul>
+                                <li>Programar y diseñar software.</li>
+                                <li>Montar y administrar redes, servidores y bases de datos.</li>
+                                <li>Trabajar en equipo en proyectos informáticos.</li>
+                            </ul>
+                            <h4>Ventajas</h4>
+                            <ul>
+                                <li>Tiene muchas salidas, porque casi todas las empresas necesitan informáticos.</li>
+                                <li>Tiene 259 plazas y la nota más baja de los tres, así que es más fácil entrar.</li>
+                            </ul>
+                            <h4>Aspectos que tengo que valorar</h4>
+                            <ul>
+                                <li>Como es muy general, para trabajar en IA o en datos tendría que especializarme después con un máster.</li>
+                                <li>Tiene asignaturas de electrónica y de computadores que me pueden costar si solo me gusta programar.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Inteligencia Artificial
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Es un grado que comparten las tres universidades gallegas. Forma especialistas que crean sistemas inteligentes para resolver problemas y que saben usar la IA de forma responsable. Se usa en cosas como la medicina, los coches autónomos o los traductores.</p>
+                            <h4>Competencias</h4>
+                            <ul>
+                                <li>Crear y entrenar modelos de aprendizaje automático.</li>
+                                <li>Trabajar con imágenes, voz y texto.</li>
+                                <li>Saber cuándo es ético y legal usar la IA.</li>
+                            </ul>
+                            <h4>Ventajas</h4>
+                            <ul>
+                                <li>Me especializo desde primero en un campo en el que se buscan muchos profesionales.</li>
+                                <li>Solo hay 50 plazas, así que las clases son más pequeñas.</li>
+                            </ul>
+                            <h4>Aspectos que tengo que valorar</h4>
+                            <ul>
+                                <li>Es el que pide más nota (10,214 en 2026) y solo tiene 50 plazas, así que no es fácil entrar.</li>
+                                <li>Tiene muchas matemáticas y estadística, porque la IA se basa en ellas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ciencia e Ingeniería de Datos
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Forma especialistas en guardar y analizar grandes cantidades de datos. Mezcla informática, matemáticas, estadística y empresa. Según la UDC, es el único grado así en Galicia.</p>
+                            <h4>Competencias</h4>
+                            <ul>
+                                <li>Analizar datos con estadística y programación.</li>
+                                <li>Crear y gestionar bases de datos.</li>
+                                <li>Hacer gráficos e informes con los resultados.</li>
+                            </ul>
+                            <h4>Ventajas</h4>
+                            <ul>
+                                <li>Se puede trabajar en sectores muy distintos, como bancos, hospitales o fábricas.</li>
+                                <li>Prepara para dos trabajos distintos: científico de datos e ingeniero de datos.</li>
+                            </ul>
+                            <h4>Aspectos que tengo que valorar</h4>
+                            <ul>
+                                <li>Pide bastante nota (9,658 en 2026) y solo tiene 50 plazas.</li>
+                                <li>Gran parte del trabajo es limpiar y ordenar datos, algo que puede ser aburrido.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center">
+        <p>TIC II - Práctica 01 - 2.º Bachillerato - 2026-2027</p>
+        <p>Fuentes: <a href="https://estudos.udc.es/es/study/start/614G01V01">Grado en Ingeniería Informática (UDC)</a>, <a href="https://estudos.udc.es/es/study/start/614G03V01">Grado en Inteligencia Artificial (UDC)</a> y <a href="https://estudos.udc.es/es/study/start/614G02V01">Grado en Ciencia e Ingeniería de Datos (UDC)</a>.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+</html>
